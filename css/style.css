@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 14px;
+}
+
+/* stili container */
+
+.container{
+    height: 100vh;
+
+    /* DEBUG */
+    background-color: green;
+}
+
+/* stili info view*/
+
+.info-view{
+    position: fixed;
+    width: 100%;
+}
+
+.info-view ul{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link-top{
+   list-style-type: none;
+   padding: 10px 5px;
+}
+
+.link-top a{
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.fa-grip{
+    padding-right: 4px;
+}
